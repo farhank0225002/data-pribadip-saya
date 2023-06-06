@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>data saya</title>
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FEATHER ICON -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- MY STYLE -->
+    <link rel="stylesheet" href="css halaman/beranda.css" />
+  </head>
+
+  <body>
+    <!-- NAVEBAR START -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">MY<span>profile</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="home.html">Home</a>
+        <a href="tentangsaya.html">Tentang saya</a>
+        <a href="jawalkuliah.html">jadwal kuliah</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+
+    <!-- FEATHER ICON -->
+    <script>
+      feather.replace();
+    </script>
+
+    <div class="container">
+      <div class="card">
+        <h2>Login</h2>
+        <form>
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" />
+
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" />
+
+          <button type="submit">Login</button>
+        </form>
+        <div class="signup">
+          <span>Belum punya akun? </span>
+          <a href="#">Buat akun</a>
+        </div>
+        <div class="social-login">
+          <p>Atau login dengan</p>
+          <ul>
+            <li>
+              <a href="#"><img src="gambar/fb.png" alt="Google" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="gambar/ig.png" alt="Facebook" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="gambar/twitter.png" alt="Instagram" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="js/beranda.js"></script>
+  </body>
+</html>

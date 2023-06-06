@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css halaman/home.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="beranda.html">Beranda</a></li>
+          <li><a href="tentangsaya.html">Tentang saya</a></li>
+          <li><a href="jawalkuliah.html">jadwal kuliah</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <p>Saya adalah seorang mahasiswa yang energik dan bersemangat di Jurusan Teknologi Informasi di Universitas Proklamasi 45 Yogyakarta. Saya memiliki minat yang kuat dalam bidang teknologi dan IT. Selain fokus pada studi, saya juga menjalankan karir freelance sebagai ilustrator untuk mengembangkan keterampilan seni dan pengalaman kerja saya.</p>
+          <p>Sebagai seorang mahasiswa Teknologi Informasi, saya memiliki pengetahuan dan pemahaman yang mendalam tentang pengembangan perangkat lunak, jaringan komputer, basis data, dan teknologi web. Saya dapat menerapkan konsep dan prinsip-prinsip IT dalam pekerjaan saya sebagai ilustrator freelance, seperti penggunaan perangkat lunak desain grafis, membangun portofolio online, dan memanfaatkan media sosial untuk mempromosikan karya-karya saya.</p>
+          <p>Rumah saya terletak di Lamongan, Prijek Ngablak. Saya menikmati suasana pedesaan yang tenang di sekitar rumah, yang memberikan inspirasi bagi karya seni dan pemikiran kreatif saya. Saya juga menggunakan pengetahuan dan keahlian IT saya untuk mendukung pekerjaan freelance saya, seperti memanfaatkan teknologi digital dalam proses penciptaan dan distribusi karya seni.</p>
+          <p>Dengan kombinasi pengetahuan dalam Teknologi Informasi dan bakat dalam seni ilustrasi, saya terus mengembangkan diri dan menggabungkan kedua bidang tersebut dalam pekerjaan saya. Saya memiliki tujuan untuk menjadi seorang profesional yang dapat menggabungkan kreativitas dan inovasi melalui teknologi informasi, baik dalam dunia seni maupun industri IT.</p>
+          <a href="tentangsaya.html" class="btn-primary">cari tau lebih tentang saya</a>
+        </div>
+      </section>
+      <section class="features">
+        <div id="modal">
+          <div id="modal-content">
+            <span id="modal-close">&times;</span>
+            <img id="modal-image" src="" alt="Gambar diperbesar" />
+          </div>
+        </div>
+        
+        <!-- HTML untuk fitur dengan gambar -->
+        <div class="feature-box">
+          <img src="gambar/g1.jpg" alt="Fitur 1" onclick="showImage('gambar/g1.jpg')" />
+          <h2>gambar 1</h2>
+        </div>
+        <div class="feature-box">
+          <img src="gambar/g2.jpg" alt="Fitur 2" onclick="showImage('gambar/g2.jpg')" />
+          <h2>gambar 2</h2>
+        </div>
+        <div class="feature-box">
+          <img src="gambar/g3.jpg" alt="Fitur 3" onclick="showImage('gambar/g3.jpg')" />
+          <h2>gambar 3</h2>
+        </div>
+        <div id="image-popup">
+          <img id="popup-image" src="" alt="Popup Image">
+          <span id="close-button" onclick="hideImage()">&times;</span>
+        </div>
+      </section>
+      <section class="cta">
+        <h2>Tertarik dengan saya?</h2>
+        <a href="https://wa.me/+628887105501" class="btn-secondary">Hubungi saya Sekarang</a>
+      </section>
+    </main>   
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2023 Halaman Beranda Kami</p>
+        <div class="social-icons">
+          <ul>
+            <li>
+              <a href="#"><img src="gambar/fb.png"Google" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="gambar/ig.png" alt="Facebook" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="gambar/twitter.png" alt="Instagram" /></a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="js/home.js"></script>
+</html>
